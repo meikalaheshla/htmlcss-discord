@@ -258,7 +258,17 @@
         border: 0px;
     }
 
-    a .links-column {
+    .social-column>h3 {
+        color: #8ea1e1;
+        font-size: 3rdm;
+    }
+
+    .links-column>a {
         text-decoration: none;
         color: white;
+        line-height: 30px;
+    }
+
+    h4 {
+        color: #8ea1e1;
     }
