@@ -14,6 +14,7 @@
 
     body {
         font-family: sans-serif;
+        color: #23272a;
     }
 
     button {
@@ -27,7 +28,6 @@
     /*utility*/
 
     :root {
-        --blue: #3161E0;
         --grey: grey;
         --section-spacing-top-bottom: 120px 0;
     }
@@ -84,7 +84,7 @@
     }
 
     .jumbotron-content {
-        width: 50%;
+        width: 40%;
         margin: 0 auto;
     }
 
@@ -126,10 +126,24 @@
     }
 
     .section-txt {
-        width: 35%;
+        width: 30%;
         padding-left: 40px;
         margin-top: 40px;
-        line-height: 30px;
+
+
+
+    }
+
+    .section-txt>p {
+        line-height: 25px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 30px;
+
     }
 
     ul {
@@ -143,7 +157,7 @@
     }
 
     ul li:nth-child(2n) {
-        background-color: grey;
+        background-color: lightgray;
     }
 
     ul li:nth-child(2n) section .section-txt {
@@ -152,9 +166,7 @@
         padding-right: 40px;
     }
 
-    h2 {
-        margin-bottom: 30px;
-    }
+    /*BIGGER SECTION*/
 
     .big-section-container {
         text-align: center;
@@ -162,12 +174,28 @@
         padding: var(--section-spacing-top-bottom);
     }
 
-    .big-section-text {
-        margin-bottom: 30px
+    .big-section-text-top {
+
+        margin-bottom: 30px;
+        padding: 0 30px
+    }
+
+    .stars {}
+
+    .big-section-text-bottom {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
     }
 
     #big-section-img {
         width: 100%;
+    }
+
+    #mac-download-button {
+        background-color: #8ea1e1;
+        color: white;
+        font-size: 20px;
+        padding: 16px 32px;
     }
 
 
