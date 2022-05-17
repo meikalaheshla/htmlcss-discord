@@ -22,8 +22,11 @@
         padding: 7px 16px;
         background-color: #fcfcfe;
         border: 0px;
+    }
 
-
+    button:hover {
+        box-shadow: 0 5px 15px #FFB869;
+        color: #FFB869;
     }
 
     /*utility*/
