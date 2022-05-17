@@ -23,6 +23,7 @@
         background-color: #fcfcfe;
         border: 0px;
 
+
     }
 
     /*utility*/
@@ -118,6 +119,19 @@
     }
 
     /*main*/
+
+    .dark-wave {
+        height: 100px;
+        background-image: url(../img/wave.svg);
+
+    }
+
+    .dark-wave-layover {
+        height: 100%;
+        background-color: #ffffffd3;
+    }
+
+
 
 
     .section-background {
