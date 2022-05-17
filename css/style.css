@@ -172,6 +172,7 @@
         text-align: center;
         line-height: 30px;
         padding: var(--section-spacing-top-bottom);
+
     }
 
     .big-section-text-top {
@@ -202,18 +203,25 @@
     /*footer*/
 
     .footer-background {
-        background-color: darkslategray;
-        min-height: 400px;
-        ;
+        background-color: #23272a;
+
     }
 
-    h3 {
-        color: var(--blue);
+    .footer-top {
+        min-height: 500px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        color: white;
+        border-bottom: 1px solid #8ea1e1;
     }
 
-    .social {
-        height: 400px;
-        background-color: blanchedalmond;
+    h3 .social-column {
+        font-size: 2em
+    }
+
+
+
+    .social-column {
         width: 30%;
 
     }
@@ -222,19 +230,35 @@
 
 
     .link-container {
-        background-color: aquamarine;
-        width: calc((100% - 30%)/4);
-        border: 1px solid black;
+
+        width: calc(100%/4);
+
     }
 
-    .link-utili {
-        border-bottom: 1px solid yellow;
-        padding: var(--section-spacing-top-bottom)
+    .menu-columns {
+        width: 100%;
+
     }
 
-    .last-row {
-        background-color: blue;
+    .links-column {
+        width: 25%;
+    }
+
+    .footer-bottom-row {
+
         min-height: 60px;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #registration-button {
+        border-radius: 40px;
+        padding: 7px 16px;
+        background-color: #8ea1e1;
+        border: 0px;
+    }
+
+    a .links-column {
+        text-decoration: none;
+        color: white;
     }
